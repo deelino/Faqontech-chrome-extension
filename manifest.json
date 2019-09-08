@@ -1,0 +1,24 @@
+{
+    "name": "Faqontech QuickAcess",
+    "version": "1.0",
+    "description": "This extension will help you find latest tech news, gadgets, tutorials and how to make money online. This extension helps to access our blog faster",
+    "manifest_version": 2,
+    "options_page": "options.html",
+    "browser_action": {
+        "default_icon": "img/favicon.png",
+        "default_popup": "popup.html"  
+      },
+      "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+     },
+      "permissions": [
+        "tabs"    
+      ],
+      "options_ui": {
+        "chrome_style": true,
+        "page": "options.html"
+      },
+      "offline_enabled": true,
+    "background_page": "background.html"
+}
